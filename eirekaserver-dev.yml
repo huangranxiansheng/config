@@ -14,3 +14,6 @@ eureka:
     wait-time-in-ms-when-sync-empty: 0
     enable-self-preservation: true
     peer-eureka-nodes-update-interval-ms: 10000
+dn.name = nick
+dn.age = 17
+
