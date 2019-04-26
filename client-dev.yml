@@ -1,4 +1,10 @@
-dn:
-  name: nick
-dn:
-  age: 17
+spring:
+  application:
+    name: client
+eureka:
+  instance:
+    hostname: dev1
+    instance-id: dev1
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/
